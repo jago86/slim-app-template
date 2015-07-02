@@ -10,9 +10,6 @@ spl_autoload_register(function ($clase) {
     require_once PRIVATE_DIR . $clase . '.php';
 });
 
-// require 'Usuarios.model.php';
-// require 'HojaVida.model.php';
-// $a=new \Modelos\HojaVida();
 
 use \Slim\Slim as Slim;
 Slim::registerAutoloader();
